@@ -1,0 +1,290 @@
+@media screen and (max-width:1280px) {
+
+  body {
+
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*START: Navbar*/
+
+  .logos_navbar {
+
+    padding: 1em;
+  }
+
+  #mobile_logo {
+
+    display: block;
+  }
+
+  #Logo_Uniq_Luxury {
+
+    display: none;
+  }
+
+  #ENG,
+  #ESP {
+
+    display: none;
+
+  }
+
+  /*END: Navbar*/
+
+
+  /*START: Home Main Section*/
+
+  .main_home_text {
+
+    grid-column: 1;
+    padding-left: 1.5em;
+
+  }
+
+  .main_home_text p {
+    font-size: 1.5em;
+  }
+
+  .main_home_text h1 {
+    font-size: 2.8em;
+  }
+  
+  .search_bottom {
+
+    grid-column: 2;
+    padding-left:2em;
+
+  }
+
+  .boton1 {
+
+    margin-left: 5%;
+  }
+  .Follow-side {
+
+    display: none;
+    
+  }
+
+  /*END: Home Main Section*/
+
+  /*START: Gallery1*/
+
+  .textos_contenedor_1st {
+
+    padding: 1em 1em;
+    justify-content: center;
+  }
+  .container_1st {
+
+    display: block;
+    margin-right: 1em;
+
+  }
+  .textos_contenedor_1st h3{
+    font-size: 2em;
+  }
+
+  .textos_contenedor_1st h2 {
+    font-size: 3.7em;
+  }
+  .View_bottom1 {
+    margin: 0;
+    color: orange;
+    padding: 1em 1em;
+    text-wrap: wrap;
+    border: none;
+    justify-content: center;
+  }
+
+  .bottom_gallery_1st{
+    display: none;
+    gap: 1px;
+  }
+
+  /*END: Gallery1*/
+
+  /*START: Gallery2*/
+
+  .container_2nd {
+    display: block;
+    margin-left: 1.5em;
+  }
+
+  .textos_contenedor_2nd {
+
+    padding: 1em 1em;
+  }
+  
+  .textos_contenedor_2nd h3{
+    font-size: 2.7em;
+
+  }
+
+  .textos_contenedor_2nd h2 {
+    font-size: 1.5em;
+
+  }
+  .textos_contenedor_2nd p {
+    font-size: 1.3em;
+  }
+
+  .bottom_gallery_2nd {
+    display: none;
+    gap: 1px;
+
+  }
+
+  .View_bottom2 {
+    margin: 0;
+    color: orange;
+    padding: 1em 1em;
+    text-wrap: wrap;
+    border: none;
+    justify-content: center;
+  }
+
+  /*END: Gallery2*/
+
+  /*START: Development*/
+
+  .Develop_text h2 {
+
+    font-size: 2.5em;
+    padding-bottom: 0%;
+  }
+
+  .Gallery_developments_main {
+
+    display: block;
+    overflow-y: hidden;
+    padding: 170px;
+  }
+
+  /*END: Development*/
+
+
+
+  /*START: Art Services*/
+
+  .arts_services {
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+  } 
+
+  #art_background {
+
+    order: 3;
+
+  }
+
+  #art_background {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10em;
+  }
+
+  .services_text {
+    order: 1;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-items: start;
+  }
+
+  /*END: Art Services*/
+
+  /*START: Fotter*/
+
+  .news_footer {
+    display: block;
+    padding: 1.5em 2.5em;
+    margin-top: 5%;
+  }
+
+  .description_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    height: 60vh;
+    padding: 2em 2em 2em 2em;
+  }
+
+  .Suites {
+    display: none;
+  }
+  .Houses {
+    display: none;
+  }
+  .Contact {
+    font-size: 1em;
+    justify-content: flex-end;
+  }
+  .logo_footer img {
+    padding-bottom: 1em;
+  }
+
+  /*END: Fotter*/
+
+}
+
+@media screen and (max-width:640px) {
+
+  body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main_home .main_home_foto {
+
+    display: block;
+    overflow: hidden;
+  }
+  
+  .main_home_text {
+
+    padding-left: 1em;
+  }
+
+  .main_home_text h1 {
+    font-size: 3em;
+    padding-bottom: 2em;
+  }
+
+  .main_home_text p {
+    padding-top: 2.5em;
+    font-size: 1.5em;
+  }
+
+  .search_bottom {
+    padding: 0;
+    padding-left: 1em;
+    margin-right: 1%;
+    padding-top: 1.5em;
+    width: fit-content
+  } 
+  .search_bottom input {
+    padding-top: 1em;
+    padding-right: 4em;
+
+  }
+
+
+
+
+
+
+  
+}
+
+
+
+
+
